@@ -1,7 +1,5 @@
 package fly;
 
-import Pokemonster.Flyable;
-
 public class JetPack implements Flyable {
     @Override
     public void fly() {

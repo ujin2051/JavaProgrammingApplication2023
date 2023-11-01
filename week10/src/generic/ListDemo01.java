@@ -2,6 +2,7 @@ package generic;
 
 
 import Pokemonster.*;
+import fly.NoFly;
 import fly.Wings;
 
 import java.util.ArrayList;
