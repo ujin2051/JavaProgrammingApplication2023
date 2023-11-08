@@ -69,6 +69,7 @@ public class PokemonGame {
 //                    player.setHp(newHp);
                     Function<Integer, Integer> healPortion = hp -> hp + 30;
 //                    int newHp = healPortion.apply(player.getHp());
+//                    player.setHp(newHp);
                     player.setHp(healPortion.apply(player.getHp()));
                     System.out.println(player.name + "의 체력은 " + player.getHp() + "입니다.");
                 }else if(menu == 4){
